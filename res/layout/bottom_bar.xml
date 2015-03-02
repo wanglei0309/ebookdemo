@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="#F6F4F5"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_item_one"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_item1_selector"
+            android:textColor="@color/bottom_item_text_selector"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="0.5dip"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dip"
+        android:background="@color/bottom_item_line_color" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_item_two"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_item2_selector"
+            android:textColor="@color/bottom_item_text_selector"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="0.5dip"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dip"
+        android:background="@color/bottom_item_line_color" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_item_three"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_item3_selector"
+            android:textColor="@color/bottom_item_text_selector"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        android:visibility="gone"
+        android:layout_width="0.5dip"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="8dip"
+        android:background="@color/bottom_item_line_color" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_item_four"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bottom_item4_selector"
+            android:textColor="@color/bottom_item_text_selector"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</LinearLayout>
